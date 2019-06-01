@@ -1,0 +1,9 @@
+json.dumps(dictionary)- Takes Dict object and 'dumps' as string 
+And json will ultimately convert it to JSON format
+
+
+json.loads(s)- Converts it dictionary. Once you convert them to dictionary
+objects, it is convenient to parse them
+
+
+

@@ -1,0 +1,14 @@
+First Class Functions:
+If a function accepts other functions as argument and return other functions 
+as a result, then it is called a First Class Function
+
+First class functions allow us to treat functions like any other objects
+You can assign them to variables, pass as an argument, return as a value
+
+
+
+closures:
+closure is a inner function that remebers and has acces to variables 
+in the outer function even after the out function has finished executing
+
+A closure closes over the free variables their environment
