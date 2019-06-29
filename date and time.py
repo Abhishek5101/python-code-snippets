@@ -1,4 +1,4 @@
 import datetime
 
 date = datetime.date.today()
-print(date)
+print(date.weekday()) #Monday - 0
