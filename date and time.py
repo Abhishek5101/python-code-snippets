@@ -20,14 +20,18 @@ current_time = datetime.time(23, 23, 23, 23)
 #print(current_time.hour)
 
 
-dt = datetime.datetime(2019, 7, 27, 12, 30, 45, tzinfo=pytz.UTC)
-print(dt)
+# dt = datetime.datetime(2019, 7, 27, 12, 30, 45, tzinfo=pytz.UTC)
+# print(dt)
 
 dt_now = datetime.datetime.now(tz=pytz.UTC)
 print(dt_now)
 
-dt_utcnow = datetime.datetime.utcnow().replace(tzinfo=pytz.UTC)
-print(dt_utcnow)
+# dt_utcnow = datetime.datetime.utcnow().replace(tzinfo=pytz.UTC)
+# print(dt_utcnow)
+
+# for tz in pytz.all_timezones:
+#     print(tz)
 
 
-
+kolkata_time = dt_now.astimezone(pytz.timezone('Asia/Kolkata'))
+print(kolkata_time)
