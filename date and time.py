@@ -35,3 +35,6 @@ print(dt_now)
 
 kolkata_time = dt_now.astimezone(pytz.timezone('Asia/Kolkata'))
 print(kolkata_time)
+
+#strftime - datetime to a string
+#strptime - string to a datetime
