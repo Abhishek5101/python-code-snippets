@@ -10,4 +10,6 @@ date = datetime.date.today()
 bday = datetime.date(2020, 5, 14)
 today = datetime.date.today()
 
-print(bday - today)
+
+diff = bday - today
+print(diff.total_seconds())
