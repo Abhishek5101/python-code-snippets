@@ -9,7 +9,12 @@ class Quiz:
     answers = []
 
     def __init__(self):
-        pass
+        question_types = (Add, Multiply)
+        for _ in range(10):
+            num1 = random.randint(1, 10)
+            num2 = random.randint(1, 10)
+            question = random.choice(question_types)(num1, num2)
+            self.questions.append(question)
 
     def take_quiz(self):
         pass
