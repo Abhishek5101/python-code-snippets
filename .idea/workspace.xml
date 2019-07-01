@@ -15,14 +15,15 @@
     <session id="-1522242713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="py" value="1923" />
-          <entry key="txt" value="155" />
+          <entry key="py" value="2090" />
+          <entry key="txt" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="168" />
-          <entry key="Python" value="1923" />
+          <entry key="PLAIN_TEXT" value="213" />
+          <entry key="Python" value="2090" />
         </counts>
       </usages-collector>
     </session>
@@ -80,13 +81,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quiz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="402">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1561974008591" expanded="true" signature="80:85" ph="..." />
-                <marker date="1561974008591" expanded="true" signature="667:956" ph="..." />
-                <marker date="1561974008591" expanded="true" signature="981:1114" ph="..." />
+                <marker date="1562018872274" expanded="true" signature="80:85" ph="..." />
+                <marker date="1562018872274" expanded="true" signature="697:985" ph="..." />
+                <marker date="1562018872274" expanded="true" signature="985:1147" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,12 +127,28 @@
     <option name="width" value="1944" />
     <option name="height" value="2082" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.datetime quiz">
+  <component name="RunManager" selected="Python.quiz">
     <configuration name="date and time" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="practice python files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,13 +243,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="practice python files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.decoraters" />
       <item itemvalue="Python.date and time" />
       <item itemvalue="Python.datetime quiz" />
+      <item itemvalue="Python.quiz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quiz" />
         <item itemvalue="Python.datetime quiz" />
         <item itemvalue="Python.date and time" />
         <item itemvalue="Python.decoraters" />
@@ -368,20 +409,34 @@
       <option name="project" value="LOCAL" />
       <updated>1561898105313</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="building a timed quiz, a new way to instantiate an object!">
+      <created>1561974016548</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561974016550</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Bug- 0/10 correct. self.correct() not working">
+      <created>1561976283509</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561976283509</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="848" y="0" width="864" height="925" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5072289" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5554217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2253886" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992298" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30051813" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39896372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -404,7 +459,8 @@
     <MESSAGE value="understanding datetime module in python" />
     <MESSAGE value="building a timed quiz" />
     <MESSAGE value="building a timed quiz, a new way to instantiate an object!" />
-    <option name="LAST_COMMIT_MESSAGE" value="building a timed quiz, a new way to instantiate an object!" />
+    <MESSAGE value="Bug- 0/10 correct. self.correct() not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug- 0/10 correct. self.correct() not working" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-668031535/builtins.py">
@@ -451,13 +507,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="402">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1561974008591" expanded="true" signature="80:85" ph="..." />
-            <marker date="1561974008591" expanded="true" signature="667:956" ph="..." />
-            <marker date="1561974008591" expanded="true" signature="981:1114" ph="..." />
+            <marker date="1562018872274" expanded="true" signature="80:85" ph="..." />
+            <marker date="1562018872274" expanded="true" signature="697:985" ph="..." />
+            <marker date="1562018872274" expanded="true" signature="985:1147" ph="..." />
           </folding>
         </state>
       </provider>
