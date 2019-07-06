@@ -11,3 +11,6 @@ def square(x):
 
 f = square(4)
 print(f)
+
+var = map(square, [i for i in range(6)])
+print(var)
