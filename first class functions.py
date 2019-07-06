@@ -9,5 +9,5 @@ def square(x):
     return x*x
 
 
-f = square
+f = square(4)
 print(f)
