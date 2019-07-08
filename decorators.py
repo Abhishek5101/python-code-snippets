@@ -36,5 +36,5 @@ Decorator is a function which takes some other function as an argument perform s
 returns another function as a result.
 All of this without altering the code of the function that
 you passed in. You use it when adding a 'common functionality' to a lot of other functions without
-actually changing their code. A decorator returns function
+actually changing their code. A decorator needs to return a function
 """
