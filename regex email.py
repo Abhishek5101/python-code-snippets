@@ -1,9 +1,14 @@
 import re
 
-# Example:
-# >>> find_email("kenneth.love@teamtreehouse.com, @support, ryan@teamtreehouse.com, test+case@example.co.uk")
-# ['kenneth@teamtreehouse.com', 'ryan@teamtreehouse.com', 'test@example.co.uk']
+emails = '''
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-321-schafer@my-work.net
+'''
 
+pattern = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
 
-def find_emails(string):
-    return re.findall(r'[-\w+.]+@[-\w.]+', string)
+matches = pattern.finditer(emails)
+
+for match in matches:
+    print(match)

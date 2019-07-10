@@ -11,5 +11,5 @@ class Die:
 
 
 class D6(Die):
-    def __init__(self, value=0):
+    def __init__(self, value):
         super().__init__(sides=6, value=value)
