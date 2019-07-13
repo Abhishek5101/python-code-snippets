@@ -6,3 +6,9 @@ class Hand(list):
 
         for _ in range(size):
             self.append(die_class())
+        self.sort()
+
+
+class YatzyHand(Hand):
+    def __init__(self):
+        super().__init__()
