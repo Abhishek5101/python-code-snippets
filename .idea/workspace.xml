@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ec8c2ce-e8f1-465a-8172-d4e29391bf4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoresheets.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoresheets.py" afterDir="false" />
-    </list>
+    <list default="true" id="1ec8c2ce-e8f1-465a-8172-d4e29391bf4c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +12,9 @@
     <session id="-1522242713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -28,29 +25,29 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
           <entry key="py" value="5796" />
-          <entry key="txt" value="453" />
+          <entry key="txt" value="466" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="467" />
+          <entry key="PLAIN_TEXT" value="480" />
           <entry key="Python" value="5796" />
         </counts>
       </usages-collector>
@@ -84,14 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scoresheets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="684">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <marker date="1563020676179" expanded="true" signature="41:46" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classmethods and static methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -126,18 +132,18 @@
         <option value="$PROJECT_DIR$/first class functions.py" />
         <option value="$PROJECT_DIR$/closures.py" />
         <option value="$PROJECT_DIR$/decoraters.py" />
-        <option value="$PROJECT_DIR$/classmethods and static methods.py" />
         <option value="$PROJECT_DIR$/regex email.py" />
         <option value="$PROJECT_DIR$/dice.py" />
         <option value="$PROJECT_DIR$/hands.py" />
         <option value="$PROJECT_DIR$/scoresheets.py" />
+        <option value="$PROJECT_DIR$/classmethods and static methods.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1908" />
     <option name="width" value="1944" />
-    <option name="height" value="2086" />
+    <option name="height" value="2088" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -164,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -623,11 +629,19 @@
       <option name="project" value="LOCAL" />
       <updated>1563020422447</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="classmethods">
+      <created>1563213237582</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1563213237582</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="848" y="0" width="864" height="926" extended-state="0" />
+    <frame x="848" y="0" width="864" height="927" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5530121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -671,7 +685,8 @@
     <MESSAGE value="creating a Yatzy game" />
     <MESSAGE value="email regex" />
     <MESSAGE value="yatzee" />
-    <option name="LAST_COMMIT_MESSAGE" value="yatzee" />
+    <MESSAGE value="classmethods" />
+    <option name="LAST_COMMIT_MESSAGE" value="classmethods" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-668031535/builtins.py">
@@ -761,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classmethods and static methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -792,11 +800,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scoresheets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="684">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <marker date="1563020676179" expanded="true" signature="41:46" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classmethods and static methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
