@@ -39,15 +39,17 @@ for i, j in enumerate(number):
     if i == 0:
         if number[0] in keys_list:
             answer += number_dict.get(number[0])[0]
+
     if i == 1:
         if number[1] in keys_list:
             if number[1:3] in elevens:
                 answer += elevens.get(number[1:3])
         else:
             answer += number_dict.get(number[1])[1]
-    # if i == 2:
-    #     if number[2] in keys_list:
-    #         answer += number_dict.get(number[2])[2]
-    #
+
+    if i == 2:
+        if number[2] in keys_list:
+            answer += number_dict.get(number[2])[2]
+
 
 print(answer)
