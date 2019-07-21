@@ -18,6 +18,20 @@ number_dict = {
 
 }
 
+keys_list = list(number_dict.keys())
+values_list = list(number_dict.values())
+
+answer = ''
 for i, j in enumerate(number):
     if i == 0:
-        if j ==
+        if j[0] in keys_list:
+            answer += number_dict.get(j[0])[0]
+    if i == 1:
+        if j[1] in keys_list:
+            answer += number_dict.get(j[1])[1]
+    if i == 2:
+        if j[2] in keys_list:
+            answer += number_dict.get(j[2])[2]
+
+
+print(answer)
