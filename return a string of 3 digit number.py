@@ -15,6 +15,7 @@ number_dict = {
     '7': ['Seven hundred ', 'Seventy', ' Seven'],
     '8': ['Eight hundred ', 'Eighty', ' Eight'],
     '9': ['Nine hundred ', 'Ninety', ' Nine'],
+    '0': ['. ', '.', ' .'],
 
 }
 
