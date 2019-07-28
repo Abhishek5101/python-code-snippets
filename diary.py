@@ -1,11 +1,14 @@
 from peewee import *
+import datetime
+# !/user/bin/env
+
 
 db = SqliteDatabase('diary.db')
 
 
 class Entry(Model):
     """
-    contnet and timestamp
+    content and timestamp
     """
 
     class Meta:
@@ -13,6 +16,16 @@ class Entry(Model):
 
 
 def add_entry():
+    content = TextField()
+    timestamp = DateTimeField(default=datetime.datetime.now)
+
+
+def initialize():
+    db.connect()
+    db.create_tables([Entry], safe=True)
+
+
+def menu_loop():
     pass
 
 
@@ -25,4 +38,5 @@ def delete_entry():
 
 
 if __name__ == "__main__":
+    initialize()
     menu_loop()
